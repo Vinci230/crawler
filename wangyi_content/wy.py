@@ -72,4 +72,5 @@ response = requests.post(
 )
 
 pprint(json.loads(response.text))
+response.close()
 
