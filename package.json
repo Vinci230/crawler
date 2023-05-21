@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "crypto-js": "^4.1.1",
+    "jsencrypt": "^3.3.2",
+    "node-rsa": "^1.1.1",
     "rsa-javascript": "^1.0.1"
   }
 }
