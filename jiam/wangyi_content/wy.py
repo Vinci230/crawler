@@ -58,7 +58,7 @@ i2x = {
     "csrf_token": "154c4129b78f478464f1a79022ab11d5"
 }
 
-data=execjs.compile(open("wy.js","r",encoding="utf-8").read()).call("main")
+data=execjs.compile(open("wy.js", "r", encoding="utf-8").read()).call("main")
 
 # data = 'params=%2Bp4QZ7UmhNrCL%2FW9uEnF%2FUa4ae%2F3w5l1ky1NkMhFfYOIBMbGs0dX%2BHLzdoq0NCdA5AMp%2Fz%2BzxFNi39IwFRrV5SCORH8sVWn9qXGX54bKXcoedvTcL%2FrhgTDVS%2F3LflDgaQ9IEALe32B6wmbFKefJBqKv2Mm2Sks3MSq9En8XvrSYVGfHMr%2B8p6loVle081mqsiltH6tSjqYK0287WXnUJwKjg6qUPP%2BX1toujKyCGM0cOQX6leoQwMg%2FwhfpVSm7%2BI7Q09mCcGK3kIvhUlLtCHIJuduLWy7sfm92n%2FJOyOeYHfYz9Bi1RxaEwSiBsPRMPtTnWqeUzn2kMtiHsuDhos%2B9Ki31kTtsZ8sJMEWjxWE%3D&encSecKey=a50b221d5e4f8be7460461fa3ed9732acf525dac37a593cfd0e65908fcc23bc6adab09d4781844a031968d94a8d0d9121d807d14d605acd3a8b1839f14b06f8bffd254933179f131188e09e194647d3f1873b849ab25a1d6c6b51a325e81c4bc74f23a7c211328771cadd7a5afecf97115512309677f4b0e056883ad1c17f4af'
 
