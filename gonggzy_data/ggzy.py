@@ -4,7 +4,7 @@ import execjs
 
 import requests
 
-ctx = execjs.compile(open("ggzy.js", "r").read())
+ctx = execjs.compile(open("ggzy.js", "r",encoding="utf-8").read())
 
 date = round(time.time() * 1000)
 
