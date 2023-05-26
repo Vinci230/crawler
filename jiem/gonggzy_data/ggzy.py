@@ -4,9 +4,10 @@ import execjs
 
 import requests
 
-ctx = execjs.compile(open("ggzy.js", "r").read())
+ctx = execjs.compile(open("ggzy.js", "r",encoding="utf-8").read())
 
 date = round(time.time() * 1000)
+
 
 json_data = {
     'pageNo': 1,
@@ -45,7 +46,7 @@ headers = {
 
 
 
-response = requests.post('https://ggzyfw.fujian.gov.cn/FwPortalApi/Trade/TradeInfo', headers=headers, json=json_data)
+response = requests.post('https://ggzyfw.fujian.gov.cn/FwPortalApi/Trade/TradeInfo', headers=headers, json=json_data,verify=False)
 print(headers['portal-sign'])
 
 print(response.text)
