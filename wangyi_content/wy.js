@@ -16,7 +16,7 @@ function a(a) {
             //console.log(d)
 
           , e = CryptoJS.enc.Utf8.parse(a)
-          , f = CryptoJS.AES.encrypt(e, c, {
+              , f = CryptoJS.AES.encrypt(e, c, {
             iv: d,
             mode: CryptoJS.mode.CBC
         });
