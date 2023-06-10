@@ -50,7 +50,7 @@ data = {
     'to': 'en',
     'query': query,
     'simple_means_flag': '3',
-    'sign': '596710.915927',
+    'sign': sign,
     'token': '133d097bb18348cc59078e2253c9fc59',
     'domain': 'common',
     'ts': '1686223879951',
